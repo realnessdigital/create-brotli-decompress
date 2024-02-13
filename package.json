@@ -1,0 +1,33 @@
+{
+  "name": "create-brotli-decompress",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A package to replace the zlib.createBrotliDecompress() function, which is not supported by 'browserify-zlib'.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realnessdigital/create-brotli-decompress.git"
+  },
+  "keywords": [
+    "zlib",
+    "createBrotliDecompress",
+    "brotli",
+    "decompressor",
+    "transform",
+    "stream"
+  ],
+  "author": "rlns.de",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realnessdigital/create-brotli-decompress/issues"
+  },
+  "homepage": "https://github.com/realnessdigital/create-brotli-decompress#readme",
+  "dependencies": {
+    "brotli": "^1.3.3",
+    "buffer": "^6.0.3",
+    "stream-browserify": "^3.0.0"
+  }
+}
